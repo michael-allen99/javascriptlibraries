@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+.typed-cursor {
+    display:none;
+}
+
+.container {
+    height: 100vh;
+    background-color: #990073;
+    overflow: auto;
+}
+
+.text {
+    font-family: "Gotham", Times, serif;
+    position: absolute;
+    top: 50%;
+
+    margin-top: -50px;
+
+    color: white;
+    width: 100%;
+    text-align: center;
+
+}
+
+span {
+    color: #ff73aa;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
